@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use of Const variable</title>
+</head>
+
+<body>
+    <h2>JavaScript const</h2>
+    <p id="one"></p>
+    <p id="two"></p>
+
+    <script>
+        // Create an Array 
+        const phones = ["Iphone", "Redmi", "Oppo"];
+        // Display an Array 
+        document.getElementById("one").innerHTML = phones;
+        
+        // Create an Element 
+        phones[1] = "Oneplus";
+
+        // Add an element 
+        phones.push("Motto");
+
+        // Display an Array 
+        document.getElementById("two").innerHTML = phones;
+
+    </script>
+</body>
+
+</html>
